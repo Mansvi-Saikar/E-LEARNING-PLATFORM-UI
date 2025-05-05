@@ -21,7 +21,9 @@ Features
 •	 Hero Section with a headline and CTA
 
 •	Courses Section featuring:
+
     o	Course cards with images and descriptions
+    
     o	Embedded YouTube video playback
     
 •	Dynamic Progress Tracker that updates based on course interaction
