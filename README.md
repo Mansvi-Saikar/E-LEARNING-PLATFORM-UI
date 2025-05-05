@@ -14,7 +14,7 @@
 
 ##A responsive and interactive front-end user interface for an online learning platform built with HTML, CSS, and JavaScript. This project provides a clean, modern layout for users to explore courses, watch instructional videos, and track their learning progress dynamically.
 
-Features
+##Features
 
 •	Responsive Navigation Bar
 
@@ -30,7 +30,7 @@ Features
 
 •	Clean UI Design 
 
-Technologies Used
+##Technologies Used
 
 •	HTML
 
