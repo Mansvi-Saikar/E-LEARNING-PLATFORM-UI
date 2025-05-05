@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced E-Learning Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>E-Learn</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#progress">Progress</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h2>Learn Anything, Anytime, Anywhere</h2>
+      <img src="Learn Anything, Anytime, Anywhere.jpg" alt="Learning Illustration" class="hero-image" />
+      <p>Access a variety of courses and track your learning progress.</p>
+      <a href="#courses" class="btn-primary">Courses</a>
+    </div>
+  </section>
+
+  <section id="courses" class="course-section">
+    <h2>Available Courses</h2>
+    <div class="course-grid">
+      <div class="course-card">
+        <img src="html and css image.png" alt="Course Image" />
+        <h3>HTML & CSS Basics</h3>
+        <p>Master the building blocks of web development.</p>
+        <button class="btn-course" data-video="https://www.youtube.com/embed/UB1O30fR-EE" data-progress="70">Start Course</button>
+      </div>
+      <div class="course-card">
+        <img src="java script.jpg" alt="Course Image" />
+        <h3>JavaScript Fundamentals</h3>
+        <p>Learn how to bring your websites to life with JavaScript.</p>
+        <button class="btn-course" data-video="https://www.youtube.com/embed/PkZNo7MFNFg" data-progress="50">Start Course</button>
+      </div>
+      <div class="course-card">
+        <img src="react.jpg" alt="Course Image" />
+        <h3>React for Beginners</h3>
+        <p>Get started with one of the most popular JavaScript frameworks.</p>
+        <button class="btn-course" data-video="https://www.youtube.com/embed/bMknfKXIFA8" data-progress="20">Start Course</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="progress" class="progress-section">
+    <h2>Your Progress</h2>
+    <div class="progress-bar">
+      <div class="progress" style="width: 70%;"></div>
+    </div>
+    <p id="progressText">70% of HTML & CSS Basics completed.</p>
+  </section>
+
+  <section id="videoContainer" style="display: none; text-align: center; padding: 2em;">
+    <h2>Course Video</h2>
+    <iframe id="courseVideo" width="800" height="450" src="" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 E-Learn. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
